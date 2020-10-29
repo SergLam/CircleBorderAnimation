@@ -39,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CF09B9E254AC5BF008C1EE1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BF310036245D497000F6310F /* AppDelegate.swift */,
+				BF310038245D497000F6310F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7CF09B9F254AC5D2008C1EE1 /* BundleFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BF310041245D497200F6310F /* LaunchScreen.storyboard */,
+				BF310044245D497200F6310F /* Info.plist */,
+			);
+			path = BundleFiles;
+			sourceTree = "<group>";
+		};
+		7CF09BA0254AC5E5008C1EE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF31003F245D497200F6310F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CF09BA1254AC5F3008C1EE1 /* UserStory */ = {
+			isa = PBXGroup;
+			children = (
+				BF31003C245D497000F6310F /* Main.storyboard */,
+				BF31003A245D497000F6310F /* ViewController.swift */,
+			);
+			path = UserStory;
+			sourceTree = "<group>";
+		};
+		7CF09BA2254AC609008C1EE1 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				BF31005A245D7F1400F6310F /* AnimatableCircleView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
 		BF31002A245D497000F6310F = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +101,11 @@
 		BF310035245D497000F6310F /* CircleBorderAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				BF310036245D497000F6310F /* AppDelegate.swift */,
-				BF310038245D497000F6310F /* SceneDelegate.swift */,
-				BF31003A245D497000F6310F /* ViewController.swift */,
-				BF31005A245D7F1400F6310F /* AnimatableCircleView.swift */,
-				BF31003C245D497000F6310F /* Main.storyboard */,
-				BF31003F245D497200F6310F /* Assets.xcassets */,
-				BF310041245D497200F6310F /* LaunchScreen.storyboard */,
-				BF310044245D497200F6310F /* Info.plist */,
+				7CF09BA1254AC5F3008C1EE1 /* UserStory */,
+				7CF09BA2254AC609008C1EE1 /* ReusableViews */,
+				7CF09BA0254AC5E5008C1EE1 /* Resources */,
+				7CF09B9F254AC5D2008C1EE1 /* BundleFiles */,
+				7CF09B9E254AC5BF008C1EE1 /* Application */,
 			);
 			path = CircleBorderAnimation;
 			sourceTree = "<group>";
@@ -289,8 +329,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G977HV28A;
-				INFOPLIST_FILE = CircleBorderAnimation/Info.plist;
+				DEVELOPMENT_TEAM = MDWBDEPC5G;
+				INFOPLIST_FILE = "$(SRCROOT)/CircleBorderAnimation/BundleFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +347,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G977HV28A;
-				INFOPLIST_FILE = CircleBorderAnimation/Info.plist;
+				DEVELOPMENT_TEAM = MDWBDEPC5G;
+				INFOPLIST_FILE = "$(SRCROOT)/CircleBorderAnimation/BundleFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
